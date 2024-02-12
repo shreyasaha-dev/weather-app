@@ -13,7 +13,7 @@ const App = () => {
       console.log(response.data);
       setGetData(response.data);
     } catch (error) {
-      alert(error?.response?.data?.message);
+      alert(error.response.data.message);
     }
   };
 
